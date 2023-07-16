@@ -15,10 +15,18 @@ const Pie = () => {
           </Col>
           <Col className="d-flex flex-column" style={{rowGap:"4px"}}>
             <h5>Navegación</h5>
-            <Button variant="info">Inicio</Button>
-            <Button variant="info">Quienes Somos</Button>
+            <a href="#inicio">
+              <Button variant="info">Inicio</Button>
+            </a>
+            <a href="#quienes_somos">
+              <Button variant="info">Quienes Somos</Button>
+            </a>
+           <a href="#valores">
             <Button variant="info">Valores</Button>
-            <Button variant="info">Eventos</Button>
+           </a>
+            <a href="#eventos">
+              <Button variant="info">Eventos</Button>
+            </a>
           </Col>
           
           <Col>
