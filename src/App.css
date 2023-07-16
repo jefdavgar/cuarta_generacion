@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto+Condensed:wght@400;700&display=swap');
+:root{
+    --rose:#FFD2A4;
+    --black:#161722;
+    --white:#FFFFFF;
+    --gradient:rgba(165, 78, 43, 1);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

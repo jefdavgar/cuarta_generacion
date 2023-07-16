@@ -1,0 +1,14 @@
+.colorButton{
+    background-color: var(--rose);
+    color: var(--black);
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-weight: 700;
+    border: none;
+}
+.colorButton:hover{
+    background-color: var(--black);
+    color: var(--rose);
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-weight: 700;
+    border: none;
+}

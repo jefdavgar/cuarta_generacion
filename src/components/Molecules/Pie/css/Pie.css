@@ -1,0 +1,10 @@
+.social-icons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer{
+    background: #FFFFFF;
+    margin: 0px;
+}
