@@ -36,6 +36,18 @@ p{
     font-family: "Roboto Condensed", sans-serif;
     color: var(--black);
 }
+.seccion3 {
+  text-align: center;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--black);
+}
+.seccion4 {
+  text-align: center;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--black);
+}
 .item-icono1 {
     list-style-image: url('../../../../assets/img/Clock.png');
   }

@@ -1,10 +1,20 @@
-.navbar-toggler{
-    border: none !important;
+.logo {
+  width: 30%;
+  height: 30%;
 }
-.me-auto{
-    column-gap: 5px;
+.navbar-toggler {
+  border: none !important;
 }
-.bg-body-tertiary{
-    background-color: #0D0D0D !important;
-    font-family: 'Roboto Condensed', sans-serif ;
+.me-auto {
+  column-gap: 5px;
+}
+.bg-body-tertiary {
+  background-color: #0d0d0d !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 60%;
+    height: 60%;
+  }
 }

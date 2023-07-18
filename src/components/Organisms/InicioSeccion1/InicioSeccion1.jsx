@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
 import CarruselImagen from "../../Molecules/CarruselImagen/CarruselImagen";
 import ListaEventos from "../../Molecules/ListaEventos/ListaEventos";
 import Pie from "../../Molecules/Pie/Pie";
@@ -15,7 +16,7 @@ const InicioSeccion1 = ({ imagenFondo }) => {
     <div>
         <section className="seccion" style={seccionStyle}>
           <Container className="seccion1">
-            <a name="inicio" />
+            <a name="#" />
             <Row>
               <Col lg="5" style={{ marginTop: "40vh" }}>
                 <h4>Cuarta Generación</h4>
@@ -55,7 +56,7 @@ const InicioSeccion1 = ({ imagenFondo }) => {
               </Col>
             </Row>
           </Container>
-          <Container className="seccion2">
+          <Container className="seccion3">
             <a name="valores" />
             <Row style={{ justifyContent: "center" }}>
               <Col
@@ -112,7 +113,7 @@ const InicioSeccion1 = ({ imagenFondo }) => {
               </Col>
             </Row>
           </Container>
-          <Container className="seccion2">
+          <Container className="seccion4">
             <a name="eventos" />
             <Row style={{ justifyContent: "center" }}>
               <Col

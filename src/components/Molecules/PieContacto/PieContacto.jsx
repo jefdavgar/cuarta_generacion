@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
 
-import "./css/Pie.css"
-const Pie = () => {
+import "./css/PieContacto.css"
+const PieContacto = () => {
   return (
     <footer className="footer">
       <Container>
@@ -17,18 +17,9 @@ const Pie = () => {
           </Col>
           <Col className="d-flex flex-column" style={{rowGap:"4px"}}>
             <h5>Navegación</h5>
-            <a href="#inicio">
+            <NavLink to="/">
               <Button variant="info">Inicio</Button>
-            </a>
-            <a href="#quienes_somos">
-              <Button variant="info">Quienes Somos</Button>
-            </a>
-           <a href="#valores">
-            <Button variant="info">Valores</Button>
-           </a>
-            <a href="#eventos">
-              <Button variant="info">Eventos</Button>
-            </a>
+            </NavLink>
           </Col>
           
           <Col>
@@ -57,9 +48,9 @@ const Pie = () => {
             </ul>
           </Col>
           <Col>
-            <div>
+            <NavLink to="/inicio/contacto">
               <Button className="colorButton">Donaciones</Button>
-            </div>
+            </NavLink>
           </Col>
         </Row>
       </Container>
@@ -67,4 +58,4 @@ const Pie = () => {
   );
 };
 
-export default Pie;
+export default PieContacto;
