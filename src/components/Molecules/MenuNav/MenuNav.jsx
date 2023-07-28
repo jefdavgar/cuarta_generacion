@@ -8,15 +8,12 @@ import "./css/MenuNav.css";
 function MenuNav() {
 
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      className="back"
-      data-bs-theme="dark"
-      fixed="top"
-      >
+    <Navbar collapseOnSelect expand="lg" className="back" data-bs-theme="dark" fixed="top">
       <Container>
-      <Navbar.Brand href="#inicio"><img src={logo} alt="logo" className="logo" /></Navbar.Brand>
+        {/* Utiliza NavLink en lugar de href */}
+        <NavLink to="/" className="navbar-brand">
+          <img src={logo} alt="logo" className="logo" />
+        </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

@@ -2,6 +2,7 @@
   column-gap: 5px !important;
 }
 .logo {
+  border-radius: 10px;
   width: 3vw;
   height: 3vw;
 }
@@ -21,7 +22,8 @@
 }
 @media screen and (max-width: 768px) {
   .logo {
-    width: 60%;
-    height: 60%;
+    border-radius: 10px;
+    width: 15vw;
+    height: 15vw;
   }
 }

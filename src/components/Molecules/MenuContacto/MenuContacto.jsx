@@ -9,13 +9,15 @@ function MenuContacto() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-body-tertiary"
+      className="back"
       bg="dark"
       data-bs-theme="dark"
       fixed="top"
     >
       <Container>
-      <Navbar.Brand href="#home"><img src={logo} alt="logo" className="logo" /></Navbar.Brand>
+      <NavLink to="/" className="navbar-brand">
+          <img src={logo} alt="logo" className="logo" />
+        </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <NavLink to="/">
