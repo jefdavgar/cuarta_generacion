@@ -20,7 +20,7 @@ const InicioSeccion1 = ({ imagenFondo }) => {
           <Container className="seccion1">
             <Row>
               <Col lg="5" style={{ marginTop: "40vh" }}>
-                <h3>Cuarta Generación: Corporación Cuarta Generación</h3>
+                <h3>Corporación Cuarta Generación</h3>
                 <h1>Ven y únete a nuestra comunidad</h1>
                 <a href="#quienes_somos">
                   <Button className="colorButton">Conocenos</Button>
