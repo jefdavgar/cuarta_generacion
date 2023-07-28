@@ -17,7 +17,7 @@ const InicioContacto = ({ imagenFondo }) => {
           <Row>
             <Col lg="5" style={{ marginTop: "40vh" }}>
               <h4>Contacto - Cuarta Generación</h4>
-              <h1>Ponte en contacto con nuestra IGLESIA</h1>
+              <h1>Ponte en contacto con nuestra Corporación</h1>
             </Col>
           </Row>
         </Container>

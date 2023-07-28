@@ -1,7 +1,7 @@
 import React from "react";
 import MenuNav from "../../Molecules/MenuNav/MenuNav";
 import InicioSeccion1 from "../../Organisms/InicioSeccion1/InicioSeccion1";
-import img1 from "../../../assets/img/HomeHeader.png";
+import img1 from "../../../assets/img/HomeHeader.jpg";
 const Inicio = () => {
   return (
     <>

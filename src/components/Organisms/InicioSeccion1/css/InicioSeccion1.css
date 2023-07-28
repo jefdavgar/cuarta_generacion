@@ -4,96 +4,91 @@
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
+  filter: brightness(0.9);
 }
-h1{
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 700;
+
+.title {
+  color: var(--rose);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
 }
-h4{
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 700;
+
+h1 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
 
 }
-h5{
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 700;
+
+h5 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
 }
-p{
-    text-align: justify;
+
+p {
+  text-align: justify;
 }
+
 .seccion1 {
   height: 100vh;
-  line-height: 82px; /* 128.125% */
+  line-height: 82px;
+  /* 128.125% */
   font-family: "Roboto Condensed", sans-serif;
   color: var(--white);
 }
+
 .seccion2 {
-    text-align: center;
-    height: 100vh;
-    font-family: "Roboto Condensed", sans-serif;
-    color: var(--black);
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--black);
 }
+
 .seccion3 {
+  display: flex;
   text-align: center;
   height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
   color: var(--black);
 }
+
 .seccion4 {
+  display: flex;
   text-align: center;
   height: 100vh;
   font-family: "Roboto Condensed", sans-serif;
   color: var(--black);
 }
+
 .item-icono1 {
-    list-style-image: url('../../../../assets/img/Clock.png');
-  }
-  
-  .item-icono2 {
-    list-style-image: url('../../../../assets/img/Icon.png');
-  }
-img{
-    width: 100%;
-    height: 100%;
+  list-style-image: url('../../../../assets/img/Clock.png');
 }
 
-@media screen and (max-width:768px) {
-    .seccion{
-        background-size: auto;
-        margin-bottom: 9rem;
-    }
-    .seccion1 {
-        height: auto;
-        background-size: 100% 70vh;
-        line-height: 82px; /* 128.125% */
-        font-family: "Roboto Condensed", sans-serif;
-        color: var(--white);
-      }
-      .seccion2 {
-        height: auto;
-          text-align: center;
-          background-size: 100% 70vh;
-          font-family: "Roboto Condensed", sans-serif;
-          color: var(--black);
-      }
-}  
-@media screen and (max-width:555px) {
-    .seccion1 {
-        height: auto;
-        background-size: 100% 50vh;
-        line-height: 82px; /* 128.125% */
-        font-family: "Roboto Condensed", sans-serif;
-        color: var(--white);
-      }
-      .seccion2 {
-        height: auto;
-          text-align: center;
-          background-size: 100% 50vh;
-          font-family: "Roboto Condensed", sans-serif;
-          color: var(--black);
-      }
-}  
+.item-icono2 {
+  list-style-image: url('../../../../assets/img/Icon.png');
+}
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:550px) {
+  .seccion {
+    background-image: url(/src/assets/img/HomeHeader.png);
+    background-size: 100vh 100vh;
+  }
+  .eventos{
+    margin-top: 30vh !important;
+  }
+
+}

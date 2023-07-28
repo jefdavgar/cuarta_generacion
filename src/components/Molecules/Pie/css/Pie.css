@@ -1,3 +1,7 @@
+.navButton{
+    background-color: var(--rose);
+    color: var(--white);
+}
 .social-icons{
     list-style: none;
     display: flex;

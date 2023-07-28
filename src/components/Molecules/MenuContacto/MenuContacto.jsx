@@ -21,6 +21,12 @@ function MenuContacto() {
           <NavLink to="/">
             <ButtonContact text={"Inicio"}></ButtonContact>
           </NavLink>
+          <NavLink to="/inicio/contacto">
+            <ButtonContact text={"Contacto"}></ButtonContact>
+          </NavLink>
+          <NavLink to="/inicio/multimedia">
+            <ButtonContact text={"Multimedia"}></ButtonContact>
+          </NavLink>
         </Navbar.Collapse>
       </Container>
     </Navbar>

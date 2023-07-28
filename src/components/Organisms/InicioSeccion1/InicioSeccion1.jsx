@@ -5,7 +5,8 @@ import CarruselImagen from "../../Molecules/CarruselImagen/CarruselImagen";
 import ListaEventos from "../../Molecules/ListaEventos/ListaEventos";
 import Pie from "../../Molecules/Pie/Pie";
 import "./css/InicioSeccion1.css";
-import imgevent from "../../../assets/img/img4.png"
+import imgevent from "../../../assets/img/img4.jpeg"
+import imgevent2 from "../../../assets/img/img4.png"
 
 const InicioSeccion1 = ({ imagenFondo }) => {
   const seccionStyle = {
@@ -15,11 +16,11 @@ const InicioSeccion1 = ({ imagenFondo }) => {
   return (
     <div>
         <section className="seccion" style={seccionStyle}>
+        <a name="inicio" />
           <Container className="seccion1">
-            <a name="#" />
             <Row>
               <Col lg="5" style={{ marginTop: "40vh" }}>
-                <h4>Cuarta Generación</h4>
+                <h3>Cuarta Generación</h3>
                 <h1>Ven y únete a nuestra comunidad</h1>
                 <a href="#quienes_somos">
                   <Button className="colorButton">Conocenos</Button>
@@ -27,20 +28,19 @@ const InicioSeccion1 = ({ imagenFondo }) => {
               </Col>
             </Row>
           </Container>
-          <Container className="seccion2" style={{marginTop:"7rem"}}>
+          <Container className="seccion2">
             <a name="quienes_somos" />
             <Row style={{ justifyContent: "center" }}>
               <Col
                 lg="10"
                 style={{
-                  marginTop: "15vh",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
                 }}
               >
                 <div>
-                  <h1>Quienes somos</h1>
+                  <h1 className="title">Quienes somos</h1>
                   <p>
                     Somos una entidad sin ánimo de lucro con más de treinta años de
                     experiencia en el campo de los servicios culturales, sociales,
@@ -62,14 +62,13 @@ const InicioSeccion1 = ({ imagenFondo }) => {
               <Col
                 lg="10"
                 style={{
-                  marginTop: "15vh",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
                 }}
               >
                 <div>
-                  <h1>Misión y Visión</h1>
+                  <h1 className="title">Misión y Visión</h1>
                   <Row>
                     <Col lg="6" sm="12">
                       <h2>Misión</h2>
@@ -94,7 +93,7 @@ const InicioSeccion1 = ({ imagenFondo }) => {
                       </p>
                     </Col>
                     <Col lg="6" sm="12">
-                      <h2>Visión</h2>
+                      <h2 className="title">Visión</h2>
                       <p>
                         Lograr formar una sociedad con valores marcados, en el
                         ámbito social, humano y espiritual, donde se garantice las
@@ -127,9 +126,9 @@ const InicioSeccion1 = ({ imagenFondo }) => {
                 }}
               >
                 <div>
-                  <h1>Únete a nosotros y forma parte de algo grandioso.</h1>
-                  <Row style={{ background: "#FFF5EB", borderRadius:"10px" }}>
-                    <Col lg="4">
+                  <h1 className="title">Únete a nosotros y forma parte de algo grandioso.</h1>
+                  <Row style={{ background: "#FFF5EB", borderRadius:"10px", gap:"5px" }}>
+                    <Col lg="5">
                       <div className="d-flex justify-content-between align-items-between">
                         <h5>Proximo evento</h5>
                         <h3>
@@ -137,42 +136,72 @@ const InicioSeccion1 = ({ imagenFondo }) => {
                         </h3>
                       </div>
                       <div>
-                        <h5>Ven y escucha nuestro evento</h5>
+                        <h5>¡Gran evento de donación de sangre para salvar vidas!</h5>
                         <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                          Unde aut beatae tempora ducimus cum modi deserunt delectus
-                          maiores?
+                        Únete a nosotros en nuestro emocionante evento de donación de sangre, donde puedes marcar la diferencia y ser un héroe para aquellos que lo necesitan
                         </p>
                         <ul className="d-flex justify-content-between">
                           <li className="item-icono1">
                             <p>
-                              <h5>Viernes:</h5> 11:00 am
-                            </p>
-                            <p>
-                              <h5>Sábado:</h5> 9:00 am
+                              <h5>Domingo:</h5> 11:00 am
                             </p>
                           </li>
                           <li className="item-icono2">
                             <p>
                               <h5>Lugar:</h5> Bogotá D.C
                             </p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMSJDKrl3-xZEfUF4iez4WU_uhj476JJJb2hfzXDVxXgBCKA/viewform">
                             <Button variant="success">Registro</Button>
+                            </a>
+                            
                           </li>
                         </ul>
                       </div>
                     </Col>
-                    <Col lg="8">
+                    <Col lg="6">
                     <div className="d-flex flex-column align-items-center justify-content-center">
                         <div>
                             <img src={imgevent} alt="imagen_evento" />
                         </div>
                     </div>
                     </Col>
+                    <Col lg="5">
+                      <div className="d-flex justify-content-between align-items-between">
+                        <h5>Proximo evento</h5>
+                        <h3>
+                          Sin programar
+                        </h3>
+                      </div>
+                      <div>
+                        <h5>¡Sembrando un futuro verde juntos!</h5>
+                        <p>
+                        Te invitamos a un evento especial de siembra de árboles, donde uniremos fuerzas para hacer del mundo un lugar más verde y sostenible
+                        </p>
+                        <ul className="d-flex justify-content-between">
+                          <li className="item-icono1">
+                            <p>
+                              Próximo evento por programar 
+                            </p>
+                          </li>
+                          <li className="item-icono2">
+                            <p>
+                              <h5>Lugar:</h5> Bogotá D.C
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </Col>
+                    <Col lg="6">
+                    <div className="d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img src={imgevent2} alt="imagen_evento" />
+                        </div>
+                    </div>
+                    </Col>
                     <Col lg="12" className="d-flex flex-column align-items-center justify-content-center">
-                    <h1>Todos los eventos</h1>
+                    <h1 className="title" >Articulos</h1>
                     <ListaEventos></ListaEventos>
                     <br />
-                    <Button className="colorButton">Ver Calendario</Button>
                     </Col>
                     <Col style={{margin:" 0px", padding:"3rem 0px 3rem 0px", background:"#FFFFFF"}}>
                     <Pie></Pie>
