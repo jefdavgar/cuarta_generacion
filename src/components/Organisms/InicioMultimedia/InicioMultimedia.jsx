@@ -60,7 +60,7 @@ const InicioMultimedia = ({ imagenFondo }) => {
           <a name="inicio" />
           <Row>
             <Col lg="5" style={{ marginTop: "40vh" }}>
-              <h4>Multimedia - Cuarta Generación</h4>
+              <h4>Multimedia - Cuarta Generación: Corporación Cuarta Generación</h4>
               <h1>Conoce las experiencias de la comunidad</h1>
             </Col>
           </Row>
